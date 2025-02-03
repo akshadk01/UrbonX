@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbonX</title>
+    <link rel="stylesheet" href="Web.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>UrbonX</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shops</a>
+                    <a id="blog" onclick="blogs()">Blog</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- mainpage -->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>UrbonX</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Grab your favorite styles starting at ₹1499.</p>
+                <button>Explore</button>
+            </div>
+            <img src="m3.png" alt="A girl img">
+        </div>
+
+        <!-- cards -->
+
+        <div class="trend">
+            <div class="head">
+                <h1>UrbonX <span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="srt1.webp" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="crd">
+                    <img src="srt2.webp" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+                    <div class="crd">
+                        <img src="srt6.webp" alt="" onclick="show(this)">
+                        <div class="crdText">
+                            <h2>Cutton Trending Shirt's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Women Card -->
+
+                <div class="trend" id="trendSec">
+                    <div class="head">
+                        <h1>UrbonX <span>Women's Wear</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="wn4.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="wn5.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="wn6.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Top's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- about us -->
+
+                <div class="about">
+
+                    <div class="aboutus">
+                        <h1>#KnowUs</h1>
+                        <br>
+                        <p>Learn more about our mission and passion for fashion.</p>
+                    </div>
+
+                    <div class="me">
+                        <img src="lap.png" alt="">
+                        <div class="aboutText">
+                            <h1>Who we are ?</h1>
+                            <br>
+                            <p>We are a passionate team dedicated to bringing you the latest fashion trends at affordable prices. Our mission is to offer high-quality clothing that makes you feel confident and stylish every day. With a focus on comfort, versatility, and style, we aim to provide the best shopping experience for fashion lovers everywhere.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact -->
+
+                <div class="contact">
+
+                    <div class="contactus">
+                        <h1>#Let's Connect</h1>
+                        <br>
+                        <p>Stay in touch and be part of our community.</p>
+                    </div>
+
+                    <div class="contactMe">
+                        <div class="contactText">
+                            <h1>Visit Our Office or Contact <br>
+                                Us Today</h1>
+                            <p>Address : 94 C Wing, 9th Floor, Mittal Tower, Nariman Point,Mumbai-400021</p>
+                            <p>Contact : team@urbonx.com</p>
+                            <p>Number : 9834967795</p>
+                        </div>
+                        <img src="map.PNG" alt="">
+                    </div>
+
+                    <div class="form">
+                        <h1>Reach out to us by filling out the form.</h1>
+                        <input type="text" placeholder="Enter Name"> <br>
+                        <input type="text" placeholder="Email-id"> <br>
+                        <input type="number" placeholder="Contact No"> <br>
+                        <input type="text" placeholder="Address"> <br>
+                        <button>Submit</button>
+
+                    </div>
+                </div>
+                 <!-- cart -->
+
+                 <div class="cart">
+                    <img id="newImg" src="" alt="">
+                    <div class="cartText">
+                        <h1>Trends Offer : Trending Shop <br>
+                            Now</h1>
+                            <h2>Special Price</h2>
+                            <h2>₹1499</h2>
+                            <p>Shop the hottest trends now! Find the latest styles and must-have pieces. </p>
+                            <p>Don’t miss out—upgrade your wardrobe today!</p>
+                            
+                           <div class="btn">
+                            <button>Buy Now</button>
+                            <button onclick="addCart()">Add to Cart</button>
+                           </div>
+                           <button  class="back">Back</button>
+
+
+
+                    </div>
+                 </div>
+
+                <!-- blogs -->
+                <div class="trends">
+                    <div class="head">
+                        <h1>UrbonX <span> Our Blogs</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="blog">
+                            <img src="tr1.webp" alt="">
+                            <div class="blogText">
+                                <h2>Trending Girl Cloths</h2>
+                                <p>Find trendy styles in our Girls Collection, starting at ₹1499.</p>
+                                <a href="https://influencermarketinghub.com/best-fashion-blogs/">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="blog">
+                            <img src="tr3.webp" alt="">
+                            <div class="blogText">
+                                <h2>Trending Boys Cloths</h2>
+                                <p>Shop the latest in men's fashion from casual tees to stylish jackets, refresh your look starting at ₹1499.</p>
+                                <a href="https://www.apetogentleman.com/">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Letter -->
+
+                <div class="letter">
+                    <div class="letterText">
+                        <h1>Sign Up for News Letter</h1>
+                        <p>Join our newsletter for exclusive offers.</p>
+                    </div>
+                    <div class="inp">
+                        <input type="text" placeholder="Enter Email">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+
+                <div class="footer">
+                    <div class="footerText">
+                        <h2>About UrbonX</h2>
+                        <br>
+                        <p>Careers </p>
+                        <p>Press Releases</p>
+                        <p>UrbonX Science</p>
+                        <p></p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>About US</h2>
+                        <br>
+                        <p>Adrress :   94 C Wing, 9th Floor, Mittal Tower, Nariman Point, <br>
+                           Mumbai</p>
+                        <p>State :   Maharashtra</p>
+                        <p>Zip code:  400021</p>
+                        <p>Phone number:  020-2228440324</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Make Money With Us</h2>
+                        <br>
+                        <p>Sell on Amazon</p>
+                        <p>Amazon Global Selling</p>
+                        <p>Become an Affiliate</p>
+                        <p>Sell under Amazon Accelerator</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Help</h2>
+                        <br>
+                        <p>Your Account</p>
+                        <p>Return Center</p>
+                        <p>Order Info</p>
+                        <p>Payments</p>
+
+                    </div>
+                </div>
+            </div>
+            <script src="Web.js"></script>
+</body>
+
+</html>
